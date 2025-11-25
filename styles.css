@@ -74,6 +74,10 @@ body {
     position: relative;
     padding: 6rem 0;
     overflow: hidden;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .hero-content {
