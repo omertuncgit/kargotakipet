@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Cargo Tracking Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🚢 Cargo Hub</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blogs.html">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="blog-section">
+        <div class="container">
+            <h2 class="section-title">Cargo Tracking Insights</h2>
+            <p class="section-subtitle">Latest news, tips, and updates from the shipping industry</p>
+
+            <div id="blog-list" class="blog-grid">
+                <div class="loading">Loading blog posts...</div>
+            </div>
+
+            <div id="blog-content" style="display: none;">
+                <!-- Blog post content will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cargo Tracking Hub. All rights reserved.</p>
+            <p>A comprehensive directory for cargo tracking services worldwide.</p>
+        </div>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+</html>
