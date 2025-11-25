@@ -1,6 +1,24 @@
 // Blog configuration
 const blogPosts = [
     {
+        file: 'blogs/turkiyede-kargo-takibi.md',
+        title: 'Türkiye\'de Kargo Takibi: Kapsamlı Rehber',
+        date: '2025-01-20',
+        excerpt: 'Türkiye\'deki kargo takip süreçlerini ve en etkili takip yöntemlerini öğrenin. Tüm kargo şirketleri için detaylı bilgiler.'
+    },
+    {
+        file: 'blogs/uluslararasi-kargo-gonderimi.md',
+        title: 'Türkiye\'den Uluslararası Kargo Gönderimi Rehberi',
+        date: '2025-01-18',
+        excerpt: 'Yurtdışına kargo göndermek için bilmeniz gereken her şey. Gümrük işlemleri, belgeler ve ipuçları.'
+    },
+    {
+        file: 'blogs/e-ticaret-kargo-entegrasyonu.md',
+        title: 'E-Ticaret ve Kargo Entegrasyonu: Başarılı Teslimat Rehberi',
+        date: '2025-01-15',
+        excerpt: 'E-ticaret işletmeniz için en uygun kargo çözümleri ve entegrasyon süreçleri hakkında kapsamlı rehber.'
+    },
+    {
         file: 'blogs/getting-started-with-cargo-tracking.md',
         title: 'Getting Started with Cargo Tracking',
         date: '2025-01-15',
@@ -42,7 +60,7 @@ function loadBlogList() {
                 <h3>${post.title}</h3>
                 <div class="blog-meta">📅 ${formatDate(post.date)}</div>
                 <p class="blog-excerpt">${post.excerpt}</p>
-                <a href="blogs.html?post=${index}" class="read-more">Read More →</a>
+                <a href="blogs.html?post=${index}" class="read-more">Devamını Oku →</a>
             </div>
         `).join('');
     }
@@ -55,13 +73,13 @@ async function loadBlogPost(index) {
     const post = blogPosts[index];
 
     if (!post) {
-        blogContentElement.innerHTML = '<p>Blog post not found.</p>';
+        blogContentElement.innerHTML = '<p>Blog yazısı bulunamadı.</p>';
         return;
     }
 
     blogListElement.style.display = 'none';
     blogContentElement.style.display = 'block';
-    blogContentElement.innerHTML = '<div class="loading">Loading blog post...</div>';
+    blogContentElement.innerHTML = '<div class="loading">Blog yazısı yükleniyor...</div>';
 
     try {
         const response = await fetch(post.file);
@@ -70,7 +88,7 @@ async function loadBlogPost(index) {
 
         blogContentElement.innerHTML = `
             <div class="blog-post">
-                <a href="blogs.html" class="back-link">← Back to all posts</a>
+                <a href="blogs.html" class="back-link">← Tüm Yazılara Dön</a>
                 <h1>${post.title}</h1>
                 <div class="blog-meta">📅 ${formatDate(post.date)}</div>
                 <div class="blog-content">
@@ -81,8 +99,8 @@ async function loadBlogPost(index) {
     } catch (error) {
         blogContentElement.innerHTML = `
             <div class="blog-post">
-                <a href="blogs.html" class="back-link">← Back to all posts</a>
-                <p>Error loading blog post. Please try again later.</p>
+                <a href="blogs.html" class="back-link">← Tüm Yazılara Dön</a>
+                <p>Blog yazısı yüklenirken hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
             </div>
         `;
         console.error('Error loading blog post:', error);
@@ -92,7 +110,7 @@ async function loadBlogPost(index) {
 // Format date helper
 function formatDate(dateString) {
     const options = { year: 'numeric', month: 'long', day: 'numeric' };
-    return new Date(dateString).toLocaleDateString('en-US', options);
+    return new Date(dateString).toLocaleDateString('tr-TR', options);
 }
 
 // Initialize on page load
