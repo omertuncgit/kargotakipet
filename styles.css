@@ -169,6 +169,62 @@ body {
     }
 }
 
+/* Global Network Section */
+.global-network-section {
+    position: relative;
+    padding: 3rem 0;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.global-network-section .container {
+    position: relative;
+}
+
+.network-image {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.network-image:hover {
+    transform: scale(1.02);
+}
+
+.network-overlay {
+    text-align: center;
+    margin-top: 2rem;
+    animation: fadeInUp 1s ease;
+}
+
+.network-overlay h2 {
+    font-size: 2rem;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.network-overlay p {
+    font-size: 1.2rem;
+    color: var(--text-medium);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 /* Tracking Section */
 .tracking-section {
     padding: 4rem 0;
@@ -416,5 +472,17 @@ body {
 
     .blog-post {
         padding: 2rem 1.5rem;
+    }
+
+    .network-overlay h2 {
+        font-size: 1.5rem;
+    }
+
+    .network-overlay p {
+        font-size: 1rem;
+    }
+
+    .network-image {
+        border-radius: 10px;
     }
 }

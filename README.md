@@ -14,8 +14,10 @@ A comprehensive cargo tracking platform in Turkish with an integrated blog syste
 - **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
 - **🎨 Pastel Yellow Theme**: Modern, easy-on-the-eyes color scheme
 - **✨ Animated Hero Section**: Eye-catching hero section with smooth animations
+- **🌍 Global Network Visualization**: Beautiful world cargo network image with hover effects
 - **🔍 SEO Optimized**: Complete meta tags and Open Graph support
 - **⚡ Fast Loading**: Static HTML with no build process required
+- **💰 AdSense Ready**: Pre-configured Google AdSense integration
 
 ## Structure
 
@@ -182,6 +184,28 @@ The site is **fully integrated with Google AdSense** for monetization:
 - ✅ Auto-inserting in-article ads for blog posts
 - ✅ ads.txt file for transparency
 - ✅ No intrusive pop-ups or overlays
+
+## 🖼️ Hero Image Setup
+
+The site features a beautiful global cargo network visualization between the hero section and tracking services.
+
+### Adding the Hero Image
+
+1. Save your image as `global-cargo-network.jpg` (or `.png`)
+2. Place it in the project root directory
+3. **Recommended dimensions**: 1200-1600px wide, 600-800px tall
+4. **Optimize for web**: Max 500KB file size
+
+**📖 Detailed image guide:** See [IMAGE_SETUP.md](IMAGE_SETUP.md) for complete instructions
+
+### Image Features
+- ✅ Responsive design (adapts to all screen sizes)
+- ✅ Hover animation effect (subtle zoom)
+- ✅ Rounded corners with shadow
+- ✅ Fade-in animation on page load
+- ✅ Optimized for fast loading
+
+**Note:** The site will work without the image, but that section will appear empty until you add it.
 
 ## License
 
