@@ -86,16 +86,39 @@ async function loadBlogPost(index) {
         const markdown = await response.text();
         const html = marked.parse(markdown);
 
+        // Insert in-article ad in the middle of content
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = html;
+        const paragraphs = tempDiv.querySelectorAll('p, h2, h3');
+
+        if (paragraphs.length > 5) {
+            const midPoint = Math.floor(paragraphs.length / 2);
+            const adHtml = `
+                <div style="margin: 30px 0; padding: 20px; background: #FFFBEB; border-radius: 10px; text-align: center;">
+                    <ins class="adsbygoogle"
+                         style="display:block; text-align:center;"
+                         data-ad-layout="in-article"
+                         data-ad-format="fluid"
+                         data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX"
+                         data-ad-slot="YYYYYYYYYY"></ins>
+                </div>
+            `;
+            paragraphs[midPoint].insertAdjacentHTML('beforebegin', adHtml);
+        }
+
         blogContentElement.innerHTML = `
             <div class="blog-post">
                 <a href="blogs.html" class="back-link">← Tüm Yazılara Dön</a>
                 <h1>${post.title}</h1>
                 <div class="blog-meta">📅 ${formatDate(post.date)}</div>
                 <div class="blog-content">
-                    ${html}
+                    ${tempDiv.innerHTML}
                 </div>
             </div>
         `;
+
+        // Initialize the in-article ad
+        (adsbygoogle = window.adsbygoogle || []).push({});
     } catch (error) {
         blogContentElement.innerHTML = `
             <div class="blog-post">

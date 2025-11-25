@@ -1,15 +1,21 @@
-# Cargo Tracking Hub 🚢
+# KargoTakipet.net 📦
 
-A static website for tracking cargo shipments worldwide with an integrated blog system. Features a beautiful pastel yellow theme and provides quick access to major cargo tracking services.
+Türkiye ve dünya çapında kargo takip hizmetleri için güvenilir rehberiniz. Yurtiçi Kargo, Aras, MNG, PTT, Sürat ve tüm dünya kargo şirketlerini tek yerden takip edin.
+
+**Website:** [kargotakipet.net](https://kargotakipet.net)
+
+A comprehensive cargo tracking platform in Turkish with an integrated blog system. Features a beautiful pastel yellow theme and provides quick access to major cargo tracking services worldwide.
 
 ## Features
 
-- **Cargo Tracking Links**: Direct access to 12+ major shipping carriers and freight forwarders
-- **Blog System**: Markdown-based blog with automatic rendering
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
-- **Pastel Yellow Theme**: Modern, easy-on-the-eyes color scheme
-- **Fancy Hero Section**: Eye-catching animated hero section
-- **Card-based Layout**: Clean, organized presentation of tracking services
+- **🇹🇷 Turkish Localization**: Fully localized in Turkish for Turkish-speaking users
+- **📦 Cargo Tracking Links**: Direct access to 18+ major Turkish and international carriers
+- **📝 Turkish Blog System**: Comprehensive guides on cargo tracking, international shipping, and e-commerce
+- **📱 Responsive Design**: Works seamlessly on desktop and mobile devices
+- **🎨 Pastel Yellow Theme**: Modern, easy-on-the-eyes color scheme
+- **✨ Animated Hero Section**: Eye-catching hero section with smooth animations
+- **🔍 SEO Optimized**: Complete meta tags and Open Graph support
+- **⚡ Fast Loading**: Static HTML with no build process required
 
 ## Structure
 
@@ -36,18 +42,27 @@ kargo2/
 
 ## Cargo Tracking Services Included
 
-1. Maersk Line
-2. MSC (Mediterranean Shipping Company)
-3. CMA CGM
-4. Hapag-Lloyd
-5. COSCO Shipping
-6. ONE (Ocean Network Express)
-7. Evergreen Line
-8. Yang Ming
-9. DHL Global Forwarding
-10. Kuehne + Nagel
-11. ZIM
-12. HMM (Hyundai Merchant Marine)
+### Turkish Cargo Companies 🇹🇷
+1. **Yurtiçi Kargo** - Turkey's leading cargo and logistics company
+2. **Aras Kargo** - Extensive delivery network across Turkey
+3. **MNG Kargo** - Fast and reliable delivery service
+4. **PTT Kargo** - Turkish Post's nationwide service
+5. **Sürat Kargo** - Express delivery service
+6. **UPS Türkiye** - International shipping in Turkey
+
+### International Carriers 🌍
+7. Maersk Line
+8. MSC (Mediterranean Shipping Company)
+9. CMA CGM
+10. Hapag-Lloyd
+11. COSCO Shipping
+12. ONE (Ocean Network Express)
+13. Evergreen Line
+14. Yang Ming
+15. DHL Global Forwarding
+16. Kuehne + Nagel
+17. ZIM
+18. HMM (Hyundai Merchant Marine)
 
 ## How to Use
 
@@ -103,11 +118,15 @@ All colors are defined as CSS variables in `styles.css`:
 
 ## Blog Posts
 
-The site includes three comprehensive blog posts:
+### Turkish Blog Posts (Türkçe) 🇹🇷
+1. **Türkiye'de Kargo Takibi: Kapsamlı Rehber** - Complete guide to cargo tracking in Turkey
+2. **Türkiye'den Uluslararası Kargo Gönderimi Rehberi** - International shipping from Turkey guide with customs procedures
+3. **E-Ticaret ve Kargo Entegrasyonu** - E-commerce cargo integration guide with API integration steps
 
-1. **Getting Started with Cargo Tracking** - Basics of tracking shipments online
-2. **Understanding Container Numbers** - Guide to reading container identification numbers
-3. **Common Shipping Delays and How to Handle Them** - Tips for managing delays
+### English Blog Posts
+4. **Getting Started with Cargo Tracking** - Basics of tracking shipments online
+5. **Understanding Container Numbers** - Guide to reading container identification numbers
+6. **Common Shipping Delays and How to Handle Them** - Tips for managing delays
 
 ## Browser Support
 
@@ -115,6 +134,54 @@ The site includes three comprehensive blog posts:
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
+
+## Branding
+
+**Brand Name:** KargoTakipet.net
+**Logo:** 📦 Package icon with brand name
+**Tagline:** "Türkiye ve dünya çapında kargo takip hizmetleri için güvenilir rehberiniz"
+**Primary Color:** Pastel Yellow (#FFF4C2)
+**Accent Color:** Orange (#FFB84D)
+**Domain:** kargotakipet.net
+
+### Brand Assets
+- `favicon.svg` - SVG favicon (package icon)
+- Open Graph and Twitter Card meta tags included
+- Fully responsive branding across all pages
+
+## 💰 Google AdSense Integration
+
+The site is **fully integrated with Google AdSense** for monetization:
+
+### Ad Placements
+**Main Page (index.html):**
+- 📍 Hero section below - Horizontal banner
+- 📍 Between cargo cards - In-feed ad (after Kuehne + Nagel)
+- 📍 Before footer - Responsive banner
+
+**Blog Page (blogs.html):**
+- 📍 Below page title - Horizontal banner
+- 📍 After blog list - Responsive banner
+- 📍 In blog content - In-article ad (automatically inserted in middle of posts)
+
+### Setup Instructions
+1. Get your Google AdSense Publisher ID (pub-XXXXXXXXXXXXXXXXX)
+2. Replace all instances of `ca-pub-XXXXXXXXXXXXXXXXX` with your actual ID in:
+   - `index.html` (4 places)
+   - `blogs.html` (3 places)
+   - `blog.js` (1 place)
+   - `ads.txt` (1 place)
+3. Create ad units in AdSense and replace `YYYYYYYYYY` with actual Ad Slot IDs
+4. Upload `ads.txt` to your website root
+
+**📖 Detailed setup guide:** See [ADSENSE_SETUP.md](ADSENSE_SETUP.md) for complete instructions
+
+### Ad Features
+- ✅ Responsive ads that work on all devices
+- ✅ Strategic placements for optimal user experience
+- ✅ Auto-inserting in-article ads for blog posts
+- ✅ ads.txt file for transparency
+- ✅ No intrusive pop-ups or overlays
 
 ## License
 
