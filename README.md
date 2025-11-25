@@ -149,6 +149,40 @@ All colors are defined as CSS variables in `styles.css`:
 - Open Graph and Twitter Card meta tags included
 - Fully responsive branding across all pages
 
+## 💰 Google AdSense Integration
+
+The site is **fully integrated with Google AdSense** for monetization:
+
+### Ad Placements
+**Main Page (index.html):**
+- 📍 Hero section below - Horizontal banner
+- 📍 Between cargo cards - In-feed ad (after Kuehne + Nagel)
+- 📍 Before footer - Responsive banner
+
+**Blog Page (blogs.html):**
+- 📍 Below page title - Horizontal banner
+- 📍 After blog list - Responsive banner
+- 📍 In blog content - In-article ad (automatically inserted in middle of posts)
+
+### Setup Instructions
+1. Get your Google AdSense Publisher ID (pub-XXXXXXXXXXXXXXXXX)
+2. Replace all instances of `ca-pub-XXXXXXXXXXXXXXXXX` with your actual ID in:
+   - `index.html` (4 places)
+   - `blogs.html` (3 places)
+   - `blog.js` (1 place)
+   - `ads.txt` (1 place)
+3. Create ad units in AdSense and replace `YYYYYYYYYY` with actual Ad Slot IDs
+4. Upload `ads.txt` to your website root
+
+**📖 Detailed setup guide:** See [ADSENSE_SETUP.md](ADSENSE_SETUP.md) for complete instructions
+
+### Ad Features
+- ✅ Responsive ads that work on all devices
+- ✅ Strategic placements for optimal user experience
+- ✅ Auto-inserting in-article ads for blog posts
+- ✅ ads.txt file for transparency
+- ✅ No intrusive pop-ups or overlays
+
 ## License
 
 This project is open source and available for personal and commercial use.
