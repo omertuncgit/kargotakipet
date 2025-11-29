@@ -147,7 +147,7 @@ All colors are defined as CSS variables in `styles.css`:
 **Domain:** kargotakipet.net
 
 ### Brand Assets
-- `favicon.svg` - SVG favicon (package icon)
+- `favicon.ico` - SVG favicon (package icon)
 - Open Graph and Twitter Card meta tags included
 - Fully responsive branding across all pages
 

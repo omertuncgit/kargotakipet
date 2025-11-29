@@ -279,7 +279,7 @@ function generateTrackingCards() {
                      style="display:block; min-width: 250px; max-width: 100%;"
                      data-ad-format="fluid"
                      data-ad-layout-key="-fb+5w+4e-db+86"
-                     data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX"
+                     data-ad-client="ca-pub-8019592601622390"
                      data-ad-slot="YYYYYYYYYY"></ins>
                 <script>
                      (adsbygoogle = window.adsbygoogle || []).push({});
