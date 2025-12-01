@@ -125,7 +125,7 @@ const cargoSites = [
     {
         name: 'MNG KARGO TAKİP',
         image: 'assets/mgn.png',
-        url: 'https://www.mngkargo.com.tr/kargo-takip'
+        url: 'https://www.dhlecommerce.com.tr/gonderitakip'
     },
     {
         name: 'ARAS KARGO TAKİP',
@@ -135,22 +135,22 @@ const cargoSites = [
     {
         name: 'SÜRAT KARGO TAKİP',
         image: 'assets/surat.png',
-        url: 'https://www.suratkargo.com.tr/kargo-takip'
+        url: 'https://www.suratkargo.com.tr'
     },
     {
         name: 'HOROZ KARGO TAKİP',
         image: 'assets/Horoz_Kargo.png',
-        url: 'https://www.horozkargo.com.tr/kargo-takip'
+        url: 'https://app3.horoz.com.tr/wsKurumsal/_genel/frmGonderiTakip.aspx?lng=tr'
     },
     {
         name: 'CEVA LOGISTICS TAKİP',
         image: 'assets/ceva.PNG',
-        url: 'https://www.cevalogistics.com/tr/cozumler/kargo-takip'
+        url: 'https://www.cevalogistics.com/en'
     },
     {
         name: 'TRENDYOL EXPRESS TAKİP',
         image: 'assets/trendyol-express_.PNG',
-        url: 'https://www.trendyolexpress.com/kargo-takip'
+        url: 'https://kargotakip.trendyol.com/gonderi-sorgula'
     },
     {
         name: 'AMAZON TAKİP',
@@ -160,7 +160,7 @@ const cargoSites = [
     {
         name: 'KURYENET TAKİP',
         image: 'assets/kuryenet.PNG',
-        url: 'https://www.kuryenet.com/kargo-takip'
+        url: 'https://musterihizmetleri.kuryenet.com.tr/MusteriHizmetleriKuryenet/'
     },
     {
         name: 'DHL TAKİP',
@@ -170,12 +170,12 @@ const cargoSites = [
     {
         name: 'FEDEX TAKİP',
         image: 'assets/fedex.png',
-        url: 'https://www.fedex.com/tr/tracking.html'
+        url: 'https://www.fedex.com/tr-tr/home.html'
     },
     {
         name: 'UPS TAKİP',
         image: 'assets/ups.png',
-        url: 'https://www.ups.com/tr/tr/tracking/tracking.page'
+        url: 'https://www.ups.com/tr/tr/home'
     },
     {
         name: 'TNT TAKİP',
@@ -185,7 +185,7 @@ const cargoSites = [
     {
         name: 'ARAMEX TAKİP',
         image: 'assets/aramex.PNG',
-        url: 'https://www.aramex.com/tr/track/shipments'
+        url: 'https://www.aramex.com/tr/tr/track/shipments'
     },
     {
         name: 'HEPSIJET TAKİP',
@@ -195,33 +195,29 @@ const cargoSites = [
     {
         name: 'AGT KARGO TAKİP',
         image: 'assets/agt_logo.PNG',
-        url: 'https://www.agtkargo.com.tr/kargo-takip'
+        url: 'https://takipagt.aktif.com/'
     },
     {
         name: 'KARGOKAR TAKİP',
         image: 'assets/kargokar.png',
-        url: 'https://www.kargokar.com/kargo-takip'
+        url: 'http://kargokar.com/index.html'
     },
     {
         name: 'FILLO TAKİP',
         image: 'assets/fillo_logo.png',
-        url: 'https://www.fillo.com.tr/kargo-takip'
+        url: 'https://fillo.com.tr/'
     },
     {
         name: 'AKTİF İLETİ TAKİP',
         image: 'assets/aktif_ileti_1.png',
-        url: 'https://www.aktifileti.com.tr/kargo-takip'
+        url: 'https://takipagt.aktif.com/'
     },
     {
         name: 'KOLAY GELSİN TAKİP',
         image: 'assets/kolaygelsin_logo.jpg',
-        url: 'https://www.kolaygelsin.com/takip'
+        url: 'https://www.kolaygelsin.com/tracking'
     },
-    {
-        name: 'AMERİKA POSTAM TAKİP',
-        image: 'assets/amerikapostam_logo.png',
-        url: 'https://www.amerikapostam.com/kargo-takip'
-    },
+    
     {
         name: 'ALIEXPRESS TAKİP',
         image: 'assets/aliexpress-kargo-takip_.png',
