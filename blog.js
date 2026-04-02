@@ -1,6 +1,60 @@
 // Blog configuration
 const blogPosts = [
     {
+        file: "blogs/posta-sektoru-pazar-verileri-2024-01.md",
+        title: "Türkiye Posta Sektörü Pazar Verileri Raporu",
+        date: "2026-04-02",
+        excerpt: "Türkiye Posta Sektörü Pazar Verileri Raporu BTK 2024-1 pazar verilerine göre hazırlanmıştır. Detaylar makalede......"
+    },
+    {
+        file: "blogs/online-alisveris-faydalar-zararlar.md",
+        title: "Online Market Alışverişin Faydaları ve Zararları",
+        date: "2026-04-02",
+        excerpt: "Bu makalede Online alışverişin müşteri ve satıcı açısından faydaları ve zararları üstünde durulmuştur. Keyifli okumalar dileriz...."
+    },
+    {
+        file: "blogs/kelimelik-oyunu-harf-sayisi-ve-hileler.md",
+        title: "Kelimelik Oyunu Harf Sayısı ve Hileler",
+        date: "2026-04-02",
+        excerpt: "KELİMELİK OYUNUNDA KULLANILAN HARF SAYISI, PUANLARI VE HİLELER..."
+    },
+    {
+        file: "blogs/modacruz-urun-ekleme.md",
+        title: "Modacruz'a Ürün Ekleme",
+        date: "2026-04-02",
+        excerpt: "Moda Cruz ikinci el kıyafet ve aksesuar alışveriş sitesidir. Erkek ve kadın ürünleri satılabilir. Gelin bu sitede nasıl satış yapılır bir göz gezdirel..."
+    },
+    {
+        file: "blogs/dolap-uygulamasinda-satislar-nasil-artar.md",
+        title: "Dolap uygulamasında satışlar nasıl arttırılır?",
+        date: "2026-04-02",
+        excerpt: "Artık kullanmadığınız kıyafet, çanta, ayakkabı ya da aksesuarları Dolap.com’da satabilirsiniz. İkinci el online alış ve satışla pahalı ve tek sefer gi..."
+    },
+    {
+        file: "blogs/amazon-sketchers-alisveris-nasil-yapilir.md",
+        title: "Amazon.com'dan Nasıl Ucuz Sketchers Alışverişi Yapılır?",
+        date: "2026-04-02",
+        excerpt: "Amazon.com Türkiye’ye ürün gönderebilmekte. Eğer uygun filtreyi uygularsanız Türkiye’ye kargo bedeli alınmadan gönderilen ürünleri bulabilirsiniz...."
+    },
+    {
+        file: "blogs/aliexpress-nasil-alisveris-ve-kargo-takibi-yapilir.md",
+        title: "Aliexpress Kargo Takibi Nasıl Yapılır? Alışveriş Yaparken Dikkat Edilmesi Gerekenler",
+        date: "2026-04-02",
+        excerpt: "AliBaba grubunun dolayısıyla perakende satış yapan Aliexpress in kurucusu ve Başkanı JACK MA. Çindeki ve dünyadaki sayılı zenginlerden. JACK MA İsmini..."
+    },
+    {
+        file: "blogs/aliexpress-derecelendirmeleri-a0-a1-a2-a3-a4-nedir.md",
+        title: "Aliexpress Derecelendirmeleri A0, A1, A2, A3, A4 nedir?",
+        date: "2026-04-02",
+        excerpt: "Aliexpress çok alışveriş yapan müşterilerini A0, A1, A2, A3, A4 etiketleriyle derecelendiriyor. Böylece satıcıların size nasıl davranması konusunda ke..."
+    },
+    {
+        file: 'blogs/amazon-cagri-merkezi.md',
+        title: 'Amazon.com.tr Çağrı Merkezine Kolayca Ulaşın',
+        date: '2026-04-02',
+        excerpt: 'Amazon Türkiye müşteri hizmetlerine nasıl ulaşacağınızı adım adım resimli anlatımla öğrenin.'
+    },
+    {
         file: 'blogs/turkiyede-kargo-takibi.md',
         title: 'Türkiye\'de Kargo Takibi: Kapsamlı Rehber',
         date: '2025-01-20',
