@@ -1,0 +1,7 @@
+.git
+.git/
+.github
+.github/
+.gitignore
+wrangler.jsonc
+*wrangler*
