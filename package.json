@@ -1,0 +1,8 @@
+{
+  "name": "kargotakipet",
+  "version": "1.0.0",
+  "description": "Kargo Takip ve Blog Sitesi",
+  "scripts": {
+    "build": "node build-blogs.js"
+  }
+}
