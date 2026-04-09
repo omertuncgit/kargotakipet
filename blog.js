@@ -73,7 +73,7 @@ async function loadBlogPost(index) {
 
         if (paragraphs.length > 5) {
             const midPoint = Math.floor(paragraphs.length / 2);
-            const adHtml = \`
+            const adHtml = `
                 <div style="margin: 30px 0; padding: 20px; background: #FFFBEB; border-radius: 10px; text-align: center;">
                     <ins class="adsbygoogle"
                          style="display:block; text-align:center;"
@@ -82,32 +82,32 @@ async function loadBlogPost(index) {
                          data-ad-client="ca-pub-XXXXXXXXXXXXXXXXX"
                          data-ad-slot="YYYYYYYYYY"></ins>
                 </div>
-            \`;
+            `;
             paragraphs[midPoint].insertAdjacentHTML('beforebegin', adHtml);
         }
 
-        blogContentElement.innerHTML = \`
+        blogContentElement.innerHTML = `
             <div class="blog-post">
                 <a href="blogs.html" class="back-link">← Tüm Yazılara Dön</a>
                 <h1>${post.title}</h1>
                 <div class="blog-meta">📅 ${formatDate(post.date)}</div>
                 <div class="blog-content">
-                    \${tempDiv.innerHTML}
+                    ${tempDiv.innerHTML}
                 </div>
             </div>
-        \`;
+        `;
 
         // Initialize the in-article ad
         if(window.adsbygoogle) {
             (adsbygoogle = window.adsbygoogle || []).push({});
         }
     } catch (error) {
-        blogContentElement.innerHTML = \`
+        blogContentElement.innerHTML = `
             <div class="blog-post">
                 <a href="blogs.html" class="back-link">← Tüm Yazılara Dön</a>
                 <p>Blog yazısı yüklenirken hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
             </div>
-        \`;
+        `;
         console.error('Error loading blog post:', error);
     }
 }
