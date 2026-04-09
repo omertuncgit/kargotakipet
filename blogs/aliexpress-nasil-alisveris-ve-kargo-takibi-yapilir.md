@@ -9,18 +9,7 @@ AliBaba grubunun dolayısıyla perakende satış yapan Aliexpress in kurucusu ve
 
 Aliexpress’den alışveriş yaparken, seçtiğiniz ürün sırf diğer benzer ürünlerden daha ucuz diye hemen almayın. Öncelikle ürünün daha önce kaç defa satıldığına, ürünün aldığı puana, satıcının aldığı puana, mağazanın ne kadar süredir açık olduğuna bakın.  Daha sonra ürün yorumlarına bakmakta da fayda var.
 
-<ins class="adsbygoogle"
-	style="display:inline-block;width:336px;height:280px"
-	data-ad-client="ca-pub-8019592601622390"
-	data-ad-slot="9973863460"
-	data-ad-type="text_image"
-	data-color-border="FFFFFF"
-	data-color-bg="FFFFFF"
-	data-color-link="0088CC"
-	data-color-text="555555"
-	data-color-url="AAAAAA">
-
-(adsbygoogle = window.adsbygoogle || []).push({});
+
 
 Üstteki tüm maddeleri kontrol ettiniz ancak ürün pahalı olduğundan çok satılmamış diyelim. Bu durumda mağaza sahibine mesaj atın, ürünle ilgili aklınıza geleni sorun ve sorunuza formal bir şekilde cevap verip vermediğini, ne kadar hızlı cevap verdiğini kontrol edin. Bunlarda da sorun yoksa ve ürün Türkiye’ye kargolanması yasaklı ürünler listesinde de değilse ürünü alabilirsiniz. Mağaza sahibine Türkiye’ye ürünlerin kargolanmasında bir sorunun olup olmadığını sorun. Çünkü sizden önce illaki o ürünü Türkiye’den almış biri vardır.
 

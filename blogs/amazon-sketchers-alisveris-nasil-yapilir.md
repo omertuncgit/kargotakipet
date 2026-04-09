@@ -13,18 +13,7 @@ Amazon.com dünyadaki belki de en çok alışveriş yapılan sitelerden birisi. 
 
 Yukarıdaki pencere Türkiye’deki bir sanal mağazanın fiyatı
 
-<ins class="adsbygoogle"
-	style="display:inline-block;width:336px;height:280px"
-	data-ad-client="ca-pub-8019592601622390"
-	data-ad-slot="9973863460"
-	data-ad-type="text_image"
-	data-color-border="FFFFFF"
-	data-color-bg="FFFFFF"
-	data-color-link="0088CC"
-	data-color-text="555555"
-	data-color-url="AAAAAA">
-
-(adsbygoogle = window.adsbygoogle || []).push({});
+
 
 şimdi aynı ayakkabıyı 160 TL’ye Amazon’dan alacağız.
 

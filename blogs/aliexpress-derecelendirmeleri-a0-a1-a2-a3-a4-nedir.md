@@ -21,18 +21,7 @@ EK bilgi: A3 üyeleri 25 Dolara kadarki siparişlerde hızlı para iadesi talep 
 
 Bu arada siparişinizin alıcı koruma zamanı geçtikten sonra Dispute açamazsınız ve aşağıdaki gibi bir uyarıyla karşılaşırsınız.
 
-<ins class="adsbygoogle"
-	style="display:inline-block;width:336px;height:280px"
-	data-ad-client="ca-pub-8019592601622390"
-	data-ad-slot="9973863460"
-	data-ad-type="text_image"
-	data-color-border="FFFFFF"
-	data-color-bg="FFFFFF"
-	data-color-link="0088CC"
-	data-color-text="555555"
-	data-color-url="AAAAAA">
-
-(adsbygoogle = window.adsbygoogle || []).push({});
+
 
 ![aliexpress-derecelendirme-2.png](assets/aliexpress-derecelendirme-2.png)
 
