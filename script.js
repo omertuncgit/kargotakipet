@@ -205,7 +205,7 @@ const cargoSites = [
     {
         name: 'FILLO TAKİP',
         image: 'assets/fillo_logo.png',
-        url: 'https://fillo.com.tr/'
+        url: 'https://takip.fillo.com.tr/'
     },
     {
         name: 'AKTİF İLETİ TAKİP',
